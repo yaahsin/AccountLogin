@@ -49,10 +49,10 @@ app.post('/', (req, res) => {
   if (user) {
     if (user.password === password) {
       const firstName = user.firstName
-      console.log(firstName)
       res.render('success', { firstName })
     } else {
       message = "Wrong password.Try again or ..."
+      res.render('index', { message })
     }
   } else {
     message = "Could't find your account, please check again ><"
