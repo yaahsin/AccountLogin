@@ -34,3 +34,4 @@ git clone https://github.com/yaahsin/AccountLogin.git
 - express v4.16.4
 - express-handlebars v3.0.0
 - Bootstrap v5.2.0
+- express-session v1.17.3"
